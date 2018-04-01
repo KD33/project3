@@ -1,11 +1,22 @@
 @import "bootstrap";
 
+body {
+  background: image_url('ps.png');
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+
+}
 h1, h2, h3, h4, h5, h6, .navbar{
   margin: 0;
 }
 
 .btn {
   border-radius: 0px;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .frosty {
