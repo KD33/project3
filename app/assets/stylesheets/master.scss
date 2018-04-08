@@ -9,8 +9,28 @@ h1, h2, h3, h4, h5, h6, .navbar{
   margin: 0;
 }
 
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4d4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
 .btn {
   border-radius: 0px;
+}
+
+.clr {
+  clear: both;
 }
 
 .feature {
@@ -33,6 +53,14 @@ h1, h2, h3, h4, h5, h6, .navbar{
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   text-shadow: rgba(0,0,0,0.95)
+}
+
+.help-block{
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+  margin: 10px;
 }
 
 .hero{
