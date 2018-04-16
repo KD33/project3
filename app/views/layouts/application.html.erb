@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
   </head>
 
   <body>
@@ -64,5 +65,8 @@
         <%= link_to 'Teach a Course', new_instructor_course_path %>
       </div>
     </div>
+
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
   </body>
 </html>
