@@ -5,7 +5,7 @@
   <p>
     <%= current_lesson.subtitle %>
   </p>
-  
+
   <video id="my-video" class="video-js vjs-big-play-centered vjs-fluid" controls preload="auto"
     poster="<% image_path('blk.jpg') %>" data-setup="{}">
     <source src=<%=current_lesson.video.to_s %> type='video/mp4'>
