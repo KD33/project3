@@ -13,7 +13,6 @@
 
     $('.sections').sortable({
       update: function(event, ui){
-        alert(ui.item.index());
         $.ajax({
           type: 'PUT',
           url: ui.item.data('update-url'),
@@ -24,7 +23,6 @@
     });
 
     $('.new-lesson-button').click(function(event){
-      console.log($(event.target).data('lesson-url'));
       //wrap with a dollar sign to turn event.target to a jquery representation for an element,
       //and not a JS one
       var lessonUrl = $(event.target).data('lesson-url');
